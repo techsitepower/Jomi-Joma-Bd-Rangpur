@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Support - Jomi Joma BD</title>
+    <meta name="description" content="Get in touch with the editorial board of Jomi Joma BD for documentation inquiries across Rangpur division.">
+    <link rel="canonical" href="https://mahrzone.xyz/contact.html">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/theme.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">Jomi Joma BD</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container section" style="max-width:600px;">
+        <h1 style="font-size:32px; color:var(--primary); margin-bottom:12px;">Contact Our Portal</h1>
+        <p style="color:var(--text-muted); margin-bottom:32px;">Have legal queries, feedback regarding portal articles, or updates? Write to us below.</p>
+        
+        <form id="contact-form" action="#" method="POST" onsubmit="alert('Thank you for reaching out. We will respond within 48 business hours.'); this.reset(); return false;">
+            <div class="form-group">
+                <label class="form-label" for="contact-name">Full Name</label>
+                <input type="text" id="contact-name" class="form-control" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="contact-email">Email Address</label>
+                <input type="email" id="contact-email" class="form-control" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="contact-message">Message Details</label>
+                <textarea id="contact-message" class="form-control" rows="6" required placeholder="Specify your topic details..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary ripple" style="width:100%;">Send Message</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center" style="font-size: 14px; color: var(--text-muted);">
+            <p>&copy; 2026 Jomi Joma BD. Powered by mahrzone.xyz.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

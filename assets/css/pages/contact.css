@@ -1,0 +1,70 @@
+/**
+ * Jomi Joma BD Rangpur - Contact Page Styles
+ * UI Layout for Help and Inquiries forms
+ */
+
+.contact-layout-shell {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+/* Core Visual Cards Details Block */
+.contact-meta-channels {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-channel-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.channel-card-icon-wrapper {
+    width: 40px;
+    height: 40px;
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+/* Message Inquiries Form Module */
+.contact-form-container {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 2.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.contact-form-textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 0.75rem;
+    font-size: var(--text-sm);
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    resize: vertical;
+    transition: border-color var(--transition-fast);
+}
+
+.contact-form-textarea:focus {
+    border-color: var(--border-focus);
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .contact-layout-shell {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .contact-form-container {
+        padding: 1.5rem;
+    }
+}

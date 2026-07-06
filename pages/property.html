@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রোপার্টি বিস্তারিত - Jomi Joma BD Rangpur</title>
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/layout.css">
+    <link rel="stylesheet" href="/assets/css/components.css">
+    <link rel="stylesheet" href="/assets/css/pages/property.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- Info Bar Wrapper -->
+        <div class="top-info-bar">
+            <div class="container">
+                <div>
+                    <span data-i18n="topBar.helpline">হেল্পলাইন</span>: <a href="tel:+8801700000000">+৮৮০১৭০০০০০০০০</a>
+                </div>
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                    <button data-action="toggle-language" class="btn-outline" style="padding: 2px 8px; font-size: 12px;">EN / বাং</button>
+                    <button data-action="toggle-theme" class="btn-outline" style="padding: 2px 8px; font-size: 12px;">থিম</button>
+                </div>
+            </div>
+        </div>
+
+        <header class="header-main">
+            <div class="container">
+                <a href="/index.html" class="logo-link">
+                    <h1 style="font-size: var(--text-xl); color: var(--primary-color);">Jomi Joma <span style="color:var(--secondary-color)">BD</span></h1>
+                </a>
+            </div>
+        </header>
+
+        <main class="container section-padding">
+            <div class="listing-detail-layout">
+                <!-- Media Elements Grid Segment Wrapper -->
+                <div>
+                    <div class="listing-media-showcase">
+                        <div class="listing-hero-display">
+                            <img id="listingHeroDisplayImage" src="/assets/images/placeholders/no-image.svg" alt="Asset View Large" style="width:100%; height:100%; object-fit:cover;">
+                        </div>
+                        <div class="listing-thumbnails-strip" id="listingThumbnailsStripContainer"></div>
+                    </div>
+
+                    <div class="listing-headline-block">
+                        <h2 id="listingProfileTitle" style="font-size: var(--text-2xl); color: var(--text-primary);">লোড হচ্ছে...</h2>
+                        <div id="listingProfilePrice" class="listing-pricing-tag">৳ ০.০০</div>
+                    </div>
+
+                    <div class="listing-specs-matrix">
+                        <div class="spec-matrix-cell">
+                            <span class="spec-cell-label">আকার / পরিমাপ</span>
+                            <span class="spec-cell-value" id="listingProfileArea">-</span>
+                        </div>
+                    </div>
+
+                    <div class="listing-description-panel">
+                        <h3 style="font-size: var(--text-lg); margin-bottom:1rem;">বিস্তারিত বিবরণ</h3>
+                        <p id="listingProfileDescription" class="listing-description-text">তথ্য লোড করা হচ্ছে...</p>
+                    </div>
+                </div>
+
+                <!-- Structural Agent Dynamic Box -->
+                <aside>
+                    <div class="agent-contact-sidebar-card">
+                        <div class="agent-identity-block">
+                            <div class="agent-avatar-frame">
+                                <img src="/assets/images/placeholders/no-image.svg" alt="Agent Avatar" style="width:100%; height:100%; object-fit:cover;">
+                            </div>
+                            <div class="agent-meta-details">
+                                <span class="agent-name-string" id="agentProfileName">মালিক</span>
+                                <span class="agent-status-label" data-i18n="topBar.helpline">প্রোপার্টি দাতা</span>
+                            </div>
+                        </div>
+                        <a id="agentContactPhoneLink" href="tel:" class="btn btn-primary" style="width:100%; display:block; text-align:center; padding: 0.75rem 0;">কল করুন</a>
+                    </div>
+                </aside>
+            </div>
+        </main>
+    </div>
+
+    <script src="/assets/js/utils.js"></script>
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/language.js"></script>
+    <script src="/assets/js/gallery.js"></script>
+    <script src="/assets/js/property.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script>
+        // Synchronize structural UI mappings dynamically across raw payload bounds 
+        window.addEventListener('DOMContentLoaded', async () => {
+            const urlParams = Utils.getUrlParams();
+            const data = await Utils.fetchData('/data/properties.json');
+            if (data && urlParams.id) {
+                const item = data.find(p => p.id.toString() === urlParams.id.toString());
+                if (item) {
+                    document.getElementById('agentProfileName').textContent = item.agent.name;
+                    document.getElementById('agentContactPhoneLink').setAttribute('href', `tel:${item.agent.phone}`);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

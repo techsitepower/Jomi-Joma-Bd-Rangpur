@@ -1,0 +1,101 @@
+/**
+ * Jomi Joma BD Rangpur - Layout Structure
+ * Grid Systems, Structural Containers, Shell Architecture
+ */
+
+.container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Layout section wrapper constraints */
+.section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
+/* Global Site Header/Shell structural flex flows */
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+/* Structural Header Layout */
+.top-info-bar {
+    background-color: var(--bg-tertiary);
+    border-bottom: 1px solid var(--border-color);
+    font-size: var(--text-xs);
+    height: 40px;
+}
+
+.top-info-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-main {
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.header-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-navigation {
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: var(--z-index-sticky);
+}
+
+.main-navigation .container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+/* Footer Grid Systems */
+.footer-main {
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--border-color);
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+}

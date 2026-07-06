@@ -1,0 +1,130 @@
+/**
+ * Jomi Joma BD Rangpur - Component Library
+ * Standard reusable UI element components
+ */
+
+/* Button Components */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semibold);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: background-color var(--transition-fast), border-color var(--transition-fast);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--text-primary);
+}
+.btn-secondary:hover {
+    background-color: var(--secondary-hover);
+}
+
+.btn-outline {
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+.btn-outline:hover {
+    background-color: var(--bg-secondary);
+    border-color: var(--text-muted);
+}
+
+/* Property Item Display Cards */
+.property-card {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+.property-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.property-card-image {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    background-color: var(--bg-tertiary);
+    overflow: hidden;
+}
+
+.property-card-badge {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 0.25rem 0.5rem;
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semibold);
+    border-radius: var(--radius-sm);
+    z-index: 10;
+}
+
+.property-card-content {
+    padding: 1.25rem;
+}
+
+.property-card-price {
+    font-size: var(--text-xl);
+    font-weight: var(--weight-bold);
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.property-card-title {
+    font-size: var(--text-base);
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Structural Form Elements */
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-label {
+    display: block;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-medium);
+    margin-bottom: 0.5rem;
+}
+
+.form-select, .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: var(--text-sm);
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    transition: border-color var(--transition-fast);
+}
+.form-select:focus, .form-input:focus {
+    border-color: var(--border-focus);
+    outline: none;
+}
+
+/* System Informational Badges */
+.badge-premium {
+    background-color: var(--secondary-light);
+    color: var(--secondary-hover);
+    border: 1px solid var(--secondary-color);
+}

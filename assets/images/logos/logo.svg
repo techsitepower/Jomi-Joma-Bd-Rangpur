@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient for Premium Look -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#115E59" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+    
+    <!-- Subtle Inner Glow Grid for Depth -->
+    <radialGradient id="innerGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Smooth Rounded Canvas Backdrop -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect width="512" height="512" rx="112" fill="url(#innerGlow)" />
+
+  <!-- Combined Architecture: Modern Location Pin + Minimal House Silhouette -->
+  <g transform="translate(0, -12)">
+    <!-- Outer Premium Location Pin Loop -->
+    <path d="M256,64 C162.1,64 86,140.1 86,234 C86,342.6 226.9,439.9 246.3,452.9 C252.2,456.9 259.8,456.9 265.7,452.9 C285.1,439.9 426,342.6 426,234 C426,140.1 349.9,64 256,64 Z" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="32" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- Interior Structural Space: Integrated House Base & Roof Geometric Planes -->
+    <!-- Minimalist Roof Angle -->
+    <path d="M180,240 L256,170 L332,240" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="28" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+          
+    <!-- Minimalist Clean Core Walls Matrix -->
+    <path d="M202,240 L202,310 L310,310 L310,240" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="28" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- Premium Core Portal / Doorway Frame Center Grid -->
+    <path d="M240,310 L240,270 L272,270 L272,310" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="20" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+  </g>
+</svg>

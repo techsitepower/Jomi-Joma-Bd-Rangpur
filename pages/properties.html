@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="nav.properties">সব প্রোপার্টি - Jomi Joma BD Rangpur</title>
+    <link rel="canonical" href="https://jomijoma.mahrzone.xyz/pages/properties.html">
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/layout.css">
+    <link rel="stylesheet" href="/assets/css/components.css">
+    <link rel="stylesheet" href="/assets/css/pages/properties.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- Top Information Bar -->
+        <div class="top-info-bar">
+            <div class="container">
+                <div>
+                    <span data-i18n="topBar.helpline">হেল্পলাইন</span>: <a href="tel:+8801700000000">+৮৮০১৭০০০০০০০০</a>
+                    <span class="contact-info-text"> (<span data-i18n="topBar.hours">সকাল ৯টা - সন্ধ্যা ৬টা</span>)</span>
+                </div>
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                    <button data-action="toggle-language" class="btn-outline" style="padding: 2px 8px; font-size: 12px;">EN / বাং</button>
+                    <button data-action="toggle-theme" class="btn-outline" style="padding: 2px 8px; font-size: 12px;" data-i18n="topBar.theme">থিম</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header class="header-main">
+            <div class="container">
+                <a href="/index.html" class="logo-link">
+                    <h1 style="font-size: var(--text-xl); color: var(--primary-color);">Jomi Joma <span style="color:var(--secondary-color)">BD</span></h1>
+                </a>
+                <a href="/pages/contact.html" class="btn btn-primary" data-i18n="header.post_ad">বিজ্ঞাপন দিন</a>
+            </div>
+        </header>
+
+        <!-- Main Navigation -->
+        <nav class="main-navigation">
+            <div class="container">
+                <ul style="display: flex; gap: 1.5rem;">
+                    <li><a href="/index.html" data-i18n="nav.home">হোম</a></li>
+                    <li><a href="/pages/properties.html" style="color: var(--primary-color); font-weight: var(--weight-bold);" data-i18n="nav.properties">সব প্রোপার্টি</a></li>
+                    <li><a href="/pages/about.html" data-i18n="nav.about">আমাদের সম্পর্কে</a></li>
+                    <li><a href="/pages/contact.html" data-i18n="nav.contact">যোগাযোগ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Core Component Framework Layout -->
+        <main class="container section-padding">
+            <div class="directory-layout-shell">
+                <!-- Sidebar Filtering Matrix -->
+                <aside class="directory-filter-sidebar">
+                    <h2 class="filter-sidebar-headline" data-i18n="search.submit">ফিল্টার করুন</h2>
+                    <form id="directoryFilterForm">
+                        <div class="form-group">
+                            <label class="form-label" data-i18n="search.all_types">শ্রেণী</label>
+                            <select class="form-select" id="filterAssetType">
+                                <option value="all">সব ক্যাটাগরি</option>
+                                <option value="land">জমি</option>
+                                <option value="residential">আবাসিক</option>
+                                <option value="commercial">বাণিজ্যিক</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" data-i18n="search.all_districts">জেলা</label>
+                            <select class="form-select" id="filterDistrict">
+                                <option value="all">সব জেলা</option>
+                                <option value="rangpur">রংপুর</option>
+                                <option value="dinajpur">দিনাজপুর</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" data-i18n="search.max_price">সর্বোচ্চ বাজেট</label>
+                            <input type="number" class="form-input" id="filterMaxPrice" placeholder="টাকা">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;" data-i18n="search.submit">খুঁজুন</button>
+                    </form>
+                </aside>
+
+                <!-- Listings Space -->
+                <section>
+                    <div class="directory-results-header">
+                        <div class="results-display-counter"><span id="totalResultsCount">0</span>টি প্রোপার্টি পাওয়া গেছে</div>
+                        <select class="results-sorting-select" id="resultsSortOrder">
+                            <option value="newest">নতুন লিস্টিং</option>
+                            <option value="price-asc">মূল্য: কম থেকে বেশি</option>
+                            <option value="price-desc">মূল্য: বেশি থেকে কম</option>
+                        </select>
+                    </div>
+
+                    <div class="properties-layout-grid" id="propertiesDirectoryContainer">
+                        <!-- Dynamic script nodes injected cleanly -->
+                    </div>
+
+                    <!-- Pagination Node Wrapper Grid -->
+                    <div class="directory-pagination-bar" id="directoryPaginationWrapper"></div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <h3>Jomi Joma BD</h3>
+                        <p style="margin-top: 1rem;" data-i18n="meta.tagline">রংপুর বিভাগের প্রফেশনাল প্রোপার্টি মার্কেটপ্লেস।</p>
+                    </div>
+                    <div>
+                        <h4 data-i18n="nav.properties">লিঙ্কস</h4>
+                        <ul style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                            <li><a href="/pages/about.html" data-i18n="nav.about">আমাদের সম্পর্কে</a></li>
+                            <li><a href="/pages/contact.html" data-i18n="nav.contact">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>আইনি পাতা</h4>
+                        <ul style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                            <li><a href="/pages/privacy-policy.html">গোপনীয়তা নীতি</a></li>
+                            <li><a href="/pages/terms.html">ব্যবহারের শর্তাবলী</a></li>
+                            <li><a href="/pages/disclaimer.html">দাবিত্যাগ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div>&copy; 2026 Jomi Joma BD. All Rights Reserved.</div>
+                    <div>Developed by Mahrzone</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Script Layer Matrix Ingestion -->
+    <script src="/assets/js/utils.js"></script>
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/language.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const container = document.getElementById('propertiesDirectoryContainer');
+            const data = await Utils.fetchData('/data/properties.json');
+            if (data && container) {
+                document.getElementById('totalResultsCount').textContent = data.length;
+                container.innerHTML = data.map(item => `
+                    <article class="property-card">
+                        <div class="property-card-image">
+                            <img src="${item.images[0]}" alt="Asset Visual" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+                            ${item.isPremium ? '<span class="property-card-badge badge-premium">Premium</span>' : ''}
+                        </div>
+                        <div class="property-card-content">
+                            <div class="property-card-price">${Utils.formatPrice(item.price, LanguageEngine.currentLang)}</div>
+                            <h3 class="property-card-title">${LanguageEngine.currentLang === 'bn' ? item.titleBn : item.titleEn}</h3>
+                            <p style="font-size:13px; color:var(--text-muted);">${item.location.upazila}, ${item.location.district}</p>
+                            <a href="/pages/property.html?id=${item.id}" class="btn btn-outline" style="width:100%; margin-top:1rem;">বিস্তারিত দেখুন</a>
+                        </div>
+                    </article>
+                `).join('');
+            }
+        });
+    </script>
+</body>
+</html>

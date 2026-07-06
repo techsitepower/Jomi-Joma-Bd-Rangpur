@@ -1,0 +1,15 @@
+# Robots.txt file for Jomi Joma BD Rangpur Marketplace Optimization Layer
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /pages/properties.html
+Allow: /pages/property.html
+Allow: /pages/about.html
+Allow: /pages/contact.html
+
+# Disallow semantic boilerplate structures
+Disallow: /data/
+Disallow: /assets/css/
+Disallow: /assets/js/
+
+Sitemap: https://jomijoma.mahrzone.xyz/sitemap.xml

@@ -1,0 +1,269 @@
+/**
+ * Jomi Joma BD Rangpur - Home Page Styles
+ * UI Layout for Locked Homepage Blueprint Sections
+ */
+
+/* Hero Banner Layout */
+.hero-banner-section {
+    position: relative;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 6rem 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-banner-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0, 128, 128, 0.95) 0%, rgba(0, 51, 51, 0.8) 100%);
+    z-index: 1;
+}
+
+.hero-banner-section .container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+    font-weight: var(--weight-bold);
+}
+
+.hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+}
+
+/* Advanced Property Search */
+.search-wrapper-panel {
+    margin-top: -3rem;
+    position: relative;
+    z-index: 10;
+}
+
+.search-container-box {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-lg);
+}
+
+.search-grid-inputs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+    align-items: flex-end;
+}
+
+/* Property Categories Grid */
+.categories-layout-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.category-navigation-card {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+    cursor: pointer;
+}
+
+.category-navigation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+}
+
+.category-card-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 1.25rem;
+    color: var(--primary-color);
+}
+
+/* Base Multi-Column Listing Grids */
+.properties-layout-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+/* Section Common Headers */
+.section-headline-block {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+}
+
+.section-headline-title {
+    margin-bottom: 0.75rem;
+    position: relative;
+    padding-bottom: 0.75rem;
+}
+
+.section-headline-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+/* District Grid Module */
+.districts-layout-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+    margin-top: 2rem;
+}
+
+.district-link-card {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1.25rem;
+    text-align: center;
+    font-weight: var(--weight-semibold);
+    transition: background-color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.district-link-card:hover {
+    background-color: var(--primary-light);
+    border-color: var(--primary-color);
+}
+
+/* Statistics Block */
+.stats-layout-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+}
+
+.stat-metric-number {
+    font-size: var(--text-4xl);
+    font-weight: var(--weight-bold);
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+/* Structural Accordion FAQs */
+.faq-accordion-container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.faq-accordion-item {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.faq-accordion-trigger {
+    width: 100%;
+    padding: 1.25rem 1.5rem;
+    text-align: left;
+    font-weight: var(--weight-semibold);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--bg-primary);
+}
+
+body[lang="bn"] .faq-accordion-trigger {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.faq-accordion-panel {
+    padding: 0 1.5rem 1.25rem;
+    color: var(--text-secondary);
+    display: none;
+}
+
+.faq-accordion-item.is-active .faq-accordion-panel {
+    display: block;
+}
+
+/* Call to Action Container Structure */
+.cta-banner-wrapper {
+    background-color: var(--bg-tertiary);
+    border-radius: var(--radius-lg);
+    padding: 4rem 2rem;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+.cta-banner-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Interactive Slider Custom Track Overrides */
+.search-range-slider-track {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+/* Responsive Overrides specific to Locked Blueprint Sections */
+@media (max-width: 992px) {
+    .search-grid-inputs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .properties-layout-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .districts-layout-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-banner-section {
+        padding: 4rem 0;
+    }
+    .search-grid-inputs {
+        grid-template-columns: 1fr;
+    }
+    .search-wrapper-panel {
+        margin-top: -1.5rem;
+    }
+    .properties-layout-grid {
+        grid-template-columns: 1fr;
+    }
+    .stats-layout-bar {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .categories-layout-grid {
+        display: flex;
+        overflow-x: auto;
+        padding-bottom: 1rem;
+        scroll-snap-type: x mandatory;
+        gap: 1rem;
+    }
+    .category-navigation-card {
+        flex: 0 0 240px;
+        scroll-snap-align: start;
+    }
+}

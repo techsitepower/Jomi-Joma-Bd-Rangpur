@@ -1,0 +1,30 @@
+[
+  {
+    "id": "land",
+    "nameBn": "জমি / প্লট",
+    "nameEn": "Land & Plots",
+    "count": 142,
+    "icon": "land"
+  },
+  {
+    "id": "residential",
+    "nameBn": "বাসা ও ফ্ল্যাট",
+    "nameEn": "Houses & Apartments",
+    "count": 98,
+    "icon": "residential"
+  },
+  {
+    "id": "commercial",
+    "nameBn": "বাণিজ্যিক স্পেস",
+    "nameEn": "Commercial Spaces",
+    "count": 45,
+    "icon": "commercial"
+  },
+  {
+    "id": "industrial",
+    "nameBn": "কারখানা ও গুদাম",
+    "nameEn": "Factories & Warehouses",
+    "count": 19,
+    "icon": "industrial"
+  }
+]

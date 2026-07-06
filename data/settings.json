@@ -1,0 +1,18 @@
+{
+  "siteName": "Jomi Joma BD Rangpur",
+  "domain": "https://jomijoma.mahrzone.xyz",
+  "defaultLanguage": "bn",
+  "defaultTheme": "light",
+  "currency": "BDT",
+  "contact": {
+    "phone": "+8801700000000",
+    "email": "support@mahrzone.xyz",
+    "officeHoursBn": "শনিবার - বৃহস্পতিবার, সকাল ৯টা - সন্ধ্যা ৬টা",
+    "officeHoursEn": "Saturday - Thursday, 9 AM - 6 PM"
+  },
+  "socialMedia": {
+    "facebook": "https://facebook.com",
+    "youtube": "https://youtube.com"
+  },
+  "analyticsId": "G-XXXXXXXXXX"
+}

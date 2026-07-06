@@ -1,0 +1,75 @@
+{
+  "rangpur": [
+    { "id": "rangpur-sadar", "nameBn": "রংপুর সদর", "nameEn": "Rangpur Sadar" },
+    { "id": "mithapukur", "nameBn": "মিঠাপুকুর", "nameEn": "Mithapukur" },
+    { "id": "pirganj", "nameBn": "পীরগঞ্জ", "nameEn": "Pirganj" },
+    { "id": "badarganj", "nameBn": "বদরগঞ্জ", "nameEn": "Badarganj" },
+    { "id": "gangachara", "nameBn": "গংগাচড়া", "nameEn": "Gangachara" },
+    { "id": "kaunia", "nameBn": "কাউনিয়া", "nameEn": "Kaunia" },
+    { "id": "taraganj", "nameBn": "তারাগঞ্জ", "nameEn": "Taraganj" },
+    { "id": "pirgacha", "nameBn": "পীরগাছা", "nameEn": "Pirgacha" }
+  ],
+  "dinajpur": [
+    { "id": "dinajpur-sadar", "nameBn": "দিনাজপুর সদর", "nameEn": "Dinajpur Sadar" },
+    { "id": "parbatipur", "nameBn": "পার্বতীপুর", "nameEn": "Parbatipur" },
+    { "id": "birganj", "nameBn": "বীরগঞ্জ", "nameEn": "Birganj" },
+    { "id": "phulbari", "nameBn": "ফুলবাড়ী", "nameEn": "Phulbari" },
+    { "id": "hili", "nameBn": "হাকিমপুর (হিলি)", "nameEn": "Hakimpur (Hili)" },
+    { "id": "kaharole", "nameBn": "কাহারোল", "nameEn": "Kaharole" },
+    { "id": "khansama", "nameBn": "খানসামা", "nameEn": "Khansama" },
+    { "id": "ghoraghat", "nameBn": "ঘোড়াঘাট", "nameEn": "Ghoraghat" },
+    { "id": "chirirbandar", "nameBn": "চিরিরবন্দর", "nameEn": "Chirirbandar" },
+    { "id": "birol", "nameBn": "বিরল", "nameEn": "Birol" },
+    { "id": "biral", "nameBn": "বোচাগঞ্জ", "nameEn": "Bochaganj" },
+    { "id": "nawabganj", "nameBn": "নবাবগঞ্জ", "nameEn": "Nawabganj" }
+  ],
+  "gaibandha": [
+    { "id": "gaibandha-sadar", "nameBn": "গাইবান্ধা সদর", "nameEn": "Gaibandha Sadar" },
+    { "id": "gobindaganj", "nameBn": "গোবিন্দগঞ্জ", "nameEn": "Gobindaganj" },
+    { "id": "palashbari", "nameBn": "পলাশবাড়ী", "nameEn": "Palashbari" },
+    { "id": "sadullapur", "nameBn": "সাদুল্লাপুর", "nameEn": "Sadullapur" },
+    { "id": "sundarganj", "nameBn": "সুন্দরগঞ্জ", "nameEn": "Sundarganj" },
+    { "id": "saghata", "nameBn": "সাঘাটা", "nameEn": "Saghata" },
+    { "id": "phulchhari", "nameBn": "ফুলছড়ি", "nameEn": "Phulchhari" }
+  ],
+  "kurigram": [
+    { "id": "kurigram-sadar", "nameBn": "কুড়িগ্রাম সদর", "nameEn": "Kurigram Sadar" },
+    { "id": "ulipur", "nameBn": "উলিপর", "nameEn": "Ulipur" },
+    { "id": "nageshwari", "nameBn": "নাগেশ্বরী", "nameEn": "Nageshwari" },
+    { "id": "bhurungamari", "nameBn": "ভুরুঙ্গামারী", "nameEn": "Bhurungamari" },
+    { "id": "phulbari-k", "nameBn": "ফুলবাড়ী", "nameEn": "Phulbari" },
+    { "id": "rajarhat", "nameBn": "রাজারহাট", "nameEn": "Rajarhat" },
+    { "id": "chilmari", "nameBn": "চিলমারী", "nameEn": "Chilmari" },
+    { "id": "rowmari", "nameBn": "রৌমারী", "nameEn": "Rowmari" },
+    { "id": "char-rajibpur", "nameBn": "চর রাজিবপুর", "nameEn": "Char Rajibpur" }
+  ],
+  "lalmonirhat": [
+    { "id": "lalmonirhat-sadar", "nameBn": "লালমনিরহাট সদর", "nameEn": "Lalmonirhat Sadar" },
+    { "id": "patgram", "nameBn": "পাটগ্রাম", "nameEn": "Patgram" },
+    { "id": "hatibandha", "nameBn": "হাতীবান্ধা", "nameEn": "Hatibandha" },
+    { "id": "kaliganj", "nameBn": "কালীগঞ্জ", "nameEn": "Kaliganj" },
+    { "id": "aditmari", "nameBn": "আদিতমারী", "nameEn": "Aditmari" }
+  ],
+  "nilphamari": [
+    { "id": "nilphamari-sadar", "nameBn": "নীলফামারী সদর", "nameEn": "Nilphamari Sadar" },
+    { "id": "saidpur", "nameBn": "সৈয়দপুর", "nameEn": "Saidpur" },
+    { "id": "jaldhaka", "nameBn": "জলঢাকা", "nameEn": "Jaldhaka" },
+    { "id": "domar", "nameBn": "ডোমার", "nameEn": "Domar" },
+    { "id": "dimla", "nameBn": "ডিমলা", "nameEn": "Dimla" },
+    { "id": "kishoreganj", "nameBn": "কিশোরগঞ্জ", "nameEn": "Kishoreganj" }
+  ],
+  "panchagarh": [
+    { "id": "panchagarh-sadar", "nameBn": "পঞ্চগড় সদর", "nameEn": "Panchagarh Sadar" },
+    { "id": "tetulia", "nameBn": "তেঁতুলিয়া", "nameEn": "Tetulia" },
+    { "id": "boda", "nameBn": "বোদা", "nameEn": "Boda" },
+    { "id": "debiganj", "nameBn": "দেবীগঞ্জ", "nameEn": "Debiganj" },
+    { "id": "atwari", "nameBn": "আটোয়ারী", "nameEn": "Atwari" }
+  ],
+  "thakurgaon": [
+    { "id": "thakurgaon-sadar", "nameBn": "ঠাকুরগাঁও সদর", "nameEn": "Thakurgaon Sadar" },
+    { "id": "pirganj-t", "nameBn": "পীরগঞ্জ", "nameEn": "Pirganj" },
+    { "id": "baliadangi", "nameBn": "বালিয়াডাঙ্গী", "nameEn": "Baliadangi" },
+    { "id": "ranisankail", "nameBn": "রাণীশংকৈল", "nameEn": "Ranisankail" },
+    { "id": "haripur", "nameBn": "হরিপুর", "nameEn": "Haripur" }
+  ]
+}

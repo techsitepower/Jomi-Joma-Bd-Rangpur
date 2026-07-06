@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "tagline": "Professional Property & Asset Marketplace in Rangpur Division"
+  },
+  "topBar": {
+    "helpline": "Helpline",
+    "hours": "9 AM - 6 PM"
+  },
+  "header": {
+    "post_ad": "Post an Advertisement"
+  },
+  "nav": {
+    "home": "Home",
+    "properties": "All Properties",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Find Your Dream Property In Rangpur Division",
+    "subtitle": "Buy, sell, and advertise land, houses, apartments, or commercial properties directly from owners, agents, and developers without middle brokers."
+  },
+  "search": {
+    "all_types": "All Categories",
+    "all_districts": "All Districts",
+    "all_upazilas": "All Upazilas",
+    "max_price": "Max Budget (BDT)",
+    "submit": "Search Properties"
+  },
+  "sections": {
+    "categories": "Property Categories",
+    "featured": "Featured Properties",
+    "districts": "Browse by District",
+    "premium": "Premium Listings",
+    "latest": "Latest Properties",
+    "stats": "Our Statistics",
+    "why_us": "Why Choose Us",
+    "testimonials": "Customer Testimonials",
+    "faq": "Frequently Asked Questions",
+    "cta_title": "Want to Sell Your Property or Assets?",
+    "cta_btn": "Create Listing Today"
+  },
+  "stats": {
+    "land_sold": "Land Decimals Transacted",
+    "active_listings": "Active Listings",
+    "happy_clients": "Happy Clients"
+  }
+}

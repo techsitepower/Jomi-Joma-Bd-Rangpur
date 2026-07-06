@@ -1,0 +1,95 @@
+[
+  {
+    "id": 101,
+    "category": "land",
+    "type": "agricultural",
+    "status": "sale",
+    "isFeatured": true,
+    "isPremium": false,
+    "price": 4500000,
+    "size": 33,
+    "sizeUnit": "decimal",
+    "location": {
+      "division": "rangpur",
+      "district": "rangpur",
+      "upazila": "mithapukur",
+      "mouza": "khoragach"
+    },
+    "titleBn": "মিঠাপুকুর খোড়াগাছ মৌজায় চাষাবাদযোগ্য উর্বর কৃষি জমি বিক্রয়",
+    "titleEn": "Fertile Agricultural Land for Sale at Khoragach Mouza in Mithapukur",
+    "descriptionBn": "মিঠাপুকুর উপজেলার খোড়াগাছ মৌজায় প্রধান সড়কের সন্নিকটে ৩৩ শতক উর্বর ও বন্যামুক্ত কৃষি জমি বিক্রয় হবে। আলু, ধান এবং তামাক চাষের জন্য অত্যন্ত উপযোগী। দলিল সম্পূর্ণ পরিষ্কার এবং কোনো আইনি ঝামেলা নেই। সরাসরি মালিকের সাথে যোগাযোগের সুযোগ।",
+    "descriptionEn": "33 Decimal fertile and flood-free agricultural land for sale in Khoragach Mouza, Mithapukur Upazila near the main highway. Highly suitable for cultivating potato, paddy, and tobacco. Clear title deeds with zero legal disputes. Direct contact with the owner.",
+    "images": [
+      "/assets/images/placeholders/no-image.svg"
+    ],
+    "agent": {
+      "id": "a201",
+      "name": "মোঃ আব্দুর রহমান",
+      "phone": "+8801711000000",
+      "type": "owner"
+    },
+    "createdAt": "2026-07-01T10:00:00Z"
+  },
+  {
+    "id": 102,
+    "category": "residential",
+    "type": "apartment",
+    "status": "sale",
+    "isFeatured": false,
+    "isPremium": true,
+    "price": 6500000,
+    "size": 1350,
+    "sizeUnit": "sqft",
+    "location": {
+      "division": "rangpur",
+      "district": "dinajpur",
+      "upazila": "dinajpur-sadar",
+      "mouza": "kashipur"
+    },
+    "titleBn": "দিনাজপুর সদরে ৩ বেডরুমের আধুনিক রেডি ফ্ল্যাট বিক্রয়",
+    "titleEn": "Modern 3 BHK Ready Apartment for Sale in Dinajpur Sadar",
+    "descriptionBn": "দিনাজপুর শহরের প্রাণকেন্দ্রে ১৩৫০ বর্গফুটের একটি দক্ষিণমুখী লাক্সারিয়াস ফ্ল্যাট বিক্রয় হবে। ৩টি বেডরুম, ৩টি বাথরুম, ২টি বারান্দা এবং একটি আধুনিক রান্নাঘর রয়েছে। ২৪ ঘণ্টা লিফট, জেনারেটর ব্যাকআপ এবং সার্বক্ষণিক নিরাপত্তা ব্যবস্থা বিদ্যমান।",
+    "descriptionEn": "Brand new 1350 Sq. Ft. south-facing luxurious apartment for sale in the heart of Dinajpur town. Features 3 bedrooms, 3 bathrooms, 2 balconies, and a modern kitchen. 24/7 lift, standby generator backup, and round-the-clock security surveillance.",
+    "images": [
+      "/assets/images/placeholders/no-image.svg"
+    ],
+    "agent": {
+      "id": "a202",
+      "name": "রংপুর প্রোপার্টিজ লিঃ",
+      "phone": "+8801712000000",
+      "type": "developer"
+    },
+    "createdAt": "2026-07-03T14:30:00Z"
+  },
+  {
+    "id": 103,
+    "category": "commercial",
+    "type": "warehouse",
+    "status": "sale",
+    "isFeatured": true,
+    "isPremium": true,
+    "price": 28000000,
+    "size": 5,
+    "sizeUnit": "bigha",
+    "location": {
+      "division": "rangpur",
+      "district": "thakurgaon",
+      "upazila": "thakurgaon-sadar",
+      "mouza": "gobindanagar"
+    },
+    "titleBn": "ঠাকুরগাঁও রোড সংলগ্ন বিশাল কমার্শিয়াল ওয়ারহাউজ ও চাতাল বিক্রয়",
+    "titleEn": "Massive Commercial Warehouse and Facility for Sale near Thakurgaon Road",
+    "descriptionBn": "ঠাকুরগাঁও সদর এলাকায় হাইওয়ের পাশে ৫ বিঘা জমির ওপর নির্মিত আধুনিক সেমি-পাকা শিল্প গুদাম ঘর ও চালের চাতাল বিক্রয় করা হবে। বড় ট্রাক এবং কাভার্ড ভ্যান লোড-আনলোডের পর্যাপ্ত জায়গা রয়েছে। ভারী শিল্প স্থাপনের উপযুক্ত বিদ্যুৎ সংযোগ ও অগ্নিনির্বাপণ ছাড়পত্র রেডি।",
+    "descriptionEn": "Massive commercial setup built on 5 Bigha land for sale adjacent to the highway in Thakurgaon Sadar. Features industrial-grade semi-concrete warehouse structures and a processing yard. Spacious loading docks for large heavy trucks and covered vans. High-voltage power grid setup and fire department clearance active.",
+    "images": [
+      "/assets/images/placeholders/no-image.svg"
+    ],
+    "agent": {
+      "id": "a203",
+      "name": "মাহমুদ হাসান",
+      "phone": "+8801713000000",
+      "type": "agent"
+    },
+    "createdAt": "2026-07-05T08:15:00Z"
+  }
+]

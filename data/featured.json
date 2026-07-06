@@ -1,0 +1,14 @@
+[
+  {
+    "propertyId": 101,
+    "featureTagBn": "জনপ্রিয় কৃষি জমি",
+    "featureTagEn": "Trending Agricultural Plot",
+    "priorityOrder": 1
+  },
+  {
+    "propertyId": 103,
+    "featureTagBn": "সেরা শিল্প জোন ইনভেস্টমেন্ট",
+    "featureTagEn": "Prime Industrial Asset",
+    "priorityOrder": 2
+  }
+]

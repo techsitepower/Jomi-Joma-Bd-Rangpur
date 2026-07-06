@@ -1,0 +1,61 @@
+/**
+ * Jomi Joma BD Rangpur - Static Content Styles
+ * UI Layout for Editorial/Compliance Frameworks
+ */
+
+.static-document-wrapper {
+    max-width: 800px;
+    margin: 2rem auto 0;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 3.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.static-document-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.static-document-timestamp {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+}
+
+/* Semantic Context Layout Elements */
+.static-document-body h2 {
+    font-size: var(--text-xl);
+    margin: 2rem 0 1rem;
+}
+
+.static-document-body p {
+    line-height: 1.75;
+    margin-bottom: 1.25rem;
+    color: var(--text-secondary);
+}
+
+.static-document-body ul {
+    list-style-type: dotted;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+}
+
+body[lang="bn"] .static-document-body ul {
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
+.static-document-body li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .static-document-wrapper {
+        padding: 2rem 1.25rem;
+        margin-top: 1rem;
+    }
+}

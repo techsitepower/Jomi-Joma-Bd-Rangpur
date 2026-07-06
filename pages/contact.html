@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="nav.contact">যোগাযোগ - Jomi Joma BD Rangpur</title>
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/layout.css">
+    <link rel="stylesheet" href="/assets/css/components.css">
+    <link rel="stylesheet" href="/assets/css/pages/contact.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="header-main">
+            <div class="container">
+                <a href="/index.html"><h1 style="font-size: var(--text-xl); color: var(--primary-color);">Jomi Joma BD</h1></a>
+            </div>
+        </header>
+
+        <main class="container section-padding">
+            <div class="contact-layout-shell">
+                <aside class="contact-meta-channels">
+                    <div class="contact-channel-card">
+                        <div class="channel-card-icon-wrapper">☎</div>
+                        <div>
+                            <h4 data-i18n="topBar.helpline">হটলাইন</h4>
+                            <p style="margin:0;"><a href="tel:+8801700000000">+৮৮০১৭০০০০০০০০</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-channel-card">
+                        <div class="channel-card-icon-wrapper">✉</div>
+                        <div>
+                            <h4>ইমেইল</h4>
+                            <p style="margin:0;">support@mahrzone.xyz</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <section class="contact-form-container">
+                    <h3 style="margin-bottom: 1.5rem;">আমাদের কাছে বার্তা পাঠান</h3>
+                    <form id="marketplaceContactForm" onsubmit="event.preventDefault(); alert('বার্তাটি সফলভাবে পাঠানো হয়েছে (Static UI)');">
+                        <div class="form-group">
+                            <label class="form-label">আপনার নাম</label>
+                            <input type="text" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">মোবাইল নম্বর</label>
+                            <input type="tel" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">বার্তার বিবরণ</label>
+                            <textarea class="contact-form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">বার্তা পাঠান</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="/assets/js/utils.js"></script>
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/language.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+</html>
